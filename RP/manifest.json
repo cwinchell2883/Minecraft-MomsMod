@@ -14,14 +14,14 @@
 		}
 	},
 	"header": {
-		"name": "MomsMod",
-		"description": "A bedrock mod for the BaddestMomster.",
+		"name": "Moms Mod",
+		"description": "Mod for the wifey",
 		"min_engine_version": [
 			1,
 			18,
 			0
 		],
-		"uuid": "09ab3965-f651-48d7-9e90-ec224f73d827",
+		"uuid": "8090c46c-9843-4d8a-a259-21bba7cec2e0",
 		"version": [
 			1,
 			0,
@@ -31,17 +31,7 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "c40346ee-7c56-412c-aa9f-4e36f91bd9be",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"dependencies": [
-		{
-			"uuid": "740643ad-d10b-422e-b3b3-0eee373da34c",
+			"uuid": "47df3130-8061-459d-a8a8-e1413b1699f5",
 			"version": [
 				1,
 				0,

@@ -1,0 +1,42 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "moms:pink_diamond_ore"
+        },
+        "components": {
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            },
+            "minecraft:destroy_time": 2.3,
+            "minecraft:explosion_resistance": 0.0,
+            "minecraft:flammable": {
+                "burn_odds": 0,
+                "flame_odds": 0
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:loot": "loot_tables/pink_diamond_ore.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "moms_pink_diamond_ore",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:on_player_destroyed": {
+                "condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:iron_pickaxe', 'minecraft:golden_pickaxe', 'minecraft:diamond_pickaxe', 'minecraft:netherite_pickaxe', 'moms:pink_diamond_pickaxe')",
+                "event": "moms:drop_xp",
+                "target": "self"
+            },
+            "tag:iron_pick_diggable": {}
+        },
+        "events": {
+            "moms:drop_xp": {
+                "run_command": {
+                    "command": "/tell @initiator You triggered the command."
+                }
+            }
+        }
+    }
+}

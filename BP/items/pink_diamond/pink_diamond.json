@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "moms:pink_diamond",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.ore"
+            },
+            "minecraft:display_name": {
+                "value": "Diamond"
+            },
+            "minecraft:icon": {
+                "texture": "moms_pink_diamond"
+            }
+        },
+        "events": {}
+    }
+}

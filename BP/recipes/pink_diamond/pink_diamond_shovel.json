@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "moms:pink_diamond_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "1",
+            "2",
+            "2"
+        ],
+        "key": {
+            "1": {
+                "item": "moms:pink_diamond"
+            },
+            "2": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": [
+            {
+                "item": "moms:pink_diamond_shovel",
+                "count": 1
+            }
+        ]
+    }
+}

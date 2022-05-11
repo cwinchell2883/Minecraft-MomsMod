@@ -1,5 +1,65 @@
 {
-	"resource_pack_name": "MomsMod",
+	"resource_pack_name": "Moms Mod",
 	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"moms_pink_diamond": {
+			"textures": "textures/items/pink_diamond/pink_diamond"
+		},
+		"moms_pink_diamond_axe": {
+			"textures": "textures/items/pink_diamond/pink_diamond_axe"
+		},
+		"moms_pink_diamond_hoe": {
+			"textures": "textures/items/pink_diamond/pink_diamond_hoe"
+		},
+		"moms_pink_diamond_pickaxe": {
+			"textures": "textures/items/pink_diamond/pink_diamond_pickaxe"
+		},
+		"moms_pink_diamond_shovel": {
+			"textures": "textures/items/pink_diamond/pink_diamond_shovel"
+		},
+		"moms_pink_diamond_sword": {
+			"textures": "textures/items/pink_diamond/pink_diamond_sword"
+		},
+		"moms_pink_diamond_boots": {
+			"textures": "textures/items/pink_diamond/pink_diamond_boots"
+		},
+		"sp_ruby": {
+			"textures": "textures/items/new_ruby"
+		},
+		"ruby_axe": {
+			"textures": "textures/items/ruby_axe"
+		},
+		"ruby_sword": {
+			"textures": "textures/items/ruby_sword"
+		},
+		"ruby_shovel": {
+			"textures": "textures/items/ruby_shovel"
+		},
+		"ruby_pickaxe": {
+			"textures": "textures/items/ruby_pickaxe"
+		},
+		"ruby_hoe": {
+			"textures": "textures/items/ruby_hoe"
+		},
+		"sp_ruby_helmet": {
+			"textures": [
+				"textures/items/ruby_helmet"
+			]
+		},
+		"sp_ruby_chestplate": {
+			"textures": [
+				"textures/items/ruby_chestplate"
+			]
+		},
+		"sp_ruby_leggings": {
+			"textures": [
+				"textures/items/ruby_leggings"
+			]
+		},
+		"sp_ruby_boots": {
+			"textures": [
+				"textures/items/ruby_boots"
+			]
+		}
+	}
 }

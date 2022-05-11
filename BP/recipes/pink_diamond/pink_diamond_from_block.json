@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "moms:pink_diamond_from_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "moms:pink_diamond_block"
+            }
+        },
+        "result": {
+            "item": "moms:pink_diamond",
+            "count": 9
+        }
+    }
+}

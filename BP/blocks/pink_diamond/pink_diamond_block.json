@@ -1,0 +1,30 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "moms:pink_diamond_block"
+        },
+        "components": {
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:creative_category": {
+                "category": "construction"
+            },
+            "minecraft:destroy_time": 2.7,
+            "minecraft:explosion_resistance": 0.0,
+            "minecraft:flammable": {
+                "burn_odds": 0,
+                "flame_odds": 0
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "moms_pink_diamond_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:map_color": "#FF66FF",
+            "tag:stone": {}
+        },
+        "events": {}
+    }
+}

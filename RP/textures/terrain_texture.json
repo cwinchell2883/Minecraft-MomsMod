@@ -1,7 +1,26 @@
 {
+	"resource_pack_name": "Moms Mod",
+	"texture_name": "atlas.terrain",
 	"num_mip_levels": 4,
 	"padding": 8,
-	"resource_pack_name": "MomsMod",
-	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"moms_pink_diamond_block": {
+			"textures": "textures/blocks/pink_diamond/pink_diamond_block"
+		},
+		"moms_pink_diamond_ore": {
+			"textures": "textures/blocks/pink_diamond/pink_diamond_ore"
+		},
+		"moms_deepslate_pink_diamond_ore": {
+			"textures": "textures/blocks/pink_diamond/deepslate_pink_diamond_ore"
+		},
+		"sp_ruby_block": {
+			"textures": "textures/blocks/ruby_block"
+		},
+		"sp_ruby_ore": {
+			"textures": "textures/blocks/ruby_ore"
+		},
+		"sp_deepslate_ruby_ore": {
+			"textures": "textures/blocks/deepslate_ruby_ore"
+		}
+	}
 }

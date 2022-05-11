@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "moms:deepslate_pink_diamond_ore",
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:block_light_emission": 0.0,
+            "minecraft:creative_category": {
+                "category": "construction"
+            },
+            "minecraft:destroy_time": 2.5,
+            "minecraft:explosion_resistance": 0.0,
+            "minecraft:flammable": {
+                "burn_odds": 0,
+                "flame_odds": 0
+            },
+            "minecraft:friction": 0.6,
+            "minecraft:loot": "loot_tables/pink_diamond_ore.json",
+            "minecraft:map_color": "#FF66FF",
+            "tag:iron_pick_diggable": {}
+        },
+        "events": {}
+    }
+}

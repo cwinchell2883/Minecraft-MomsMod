@@ -3,5 +3,29 @@
 		1,
 		1,
 		0
-	]
+	],
+	"moms:pink_diamond_block": {
+		"textures": "moms_pink_diamond_block",
+		"sound": "metal"
+	},
+	"moms:pink_diamond_ore": {
+		"textures": "moms_pink_diamond_ore",
+		"sound": "stone"
+	},
+	"moms:deepslate_pink_diamond_ore": {
+		"textures": "moms_deepslate_pink_diamond_ore",
+		"sound": "stone"
+	},
+	"sp:ruby_block": {
+		"textures": "sp_ruby_block",
+		"sound": "amethyst_block"
+	},
+	"sp:ruby_ore": {
+		"textures": "sp_ruby_ore",
+		"sound": "stone"
+	},
+	"sp:deepslate_ruby_ore": {
+		"textures": "sp_deepslate_ruby_ore",
+		"sound": "stone"
+	}
 }

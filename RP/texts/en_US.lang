@@ -1,0 +1,15 @@
+// Pink Diamond
+tile.moms:deepslate_pink_diamond_ore.name=Deepslate Diamond Ore
+tile.moms:pink_diamond_block.name=Block of Diamond
+tile.moms:pink_diamond_ore.name=Diamond Ore
+item.moms:pink_diamond=Diamond
+item.moms:pink_diamond_boots=Diamond Boots
+// Ruby
+tile.sp:deepslate_ruby_ore.name=Deepslate Ruby Ore
+tile.sp:ruby_block.name=Block of Ruby
+tile.sp:ruby_ore.name=Ruby Ore
+item.sp:ruby=Ruby
+item.sp:ruby_boots=Ruby Boots
+item.sp:ruby_chestplate=Ruby Chestplate
+item.sp:ruby_leggings=Ruby Leggings
+item.sp:ruby_helmet=Ruby Helmet

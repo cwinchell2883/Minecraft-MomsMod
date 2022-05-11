@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sp:ruby",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Ruby"
+			},
+			"minecraft:icon": {
+				"texture": "sp_ruby"
+			}
+		},
+		"events": {}
+	}
+}
