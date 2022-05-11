@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Dad"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "MomsMod",
+		"description": "A bedrock mod for the BaddestMomster.",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "740643ad-d10b-422e-b3b3-0eee373da34c",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "4d2fc34c-4f1c-4882-abc0-1913b81efaf0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "09ab3965-f651-48d7-9e90-ec224f73d827",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

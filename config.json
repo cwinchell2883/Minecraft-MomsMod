@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "MomsMod",
+	"namespace": "moms",
+	"authors": [
+		"Dad"
+	],
+	"targetVersion": "1.18.30",
+	"description": "A bedrock mod for the BaddestMomster.",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"theWildUpdate": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "MomsMod"
+				}
+			]
+		]
+	}
+}
